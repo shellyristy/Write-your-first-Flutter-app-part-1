@@ -1,16 +1,34 @@
-# startup_namer
+# **Tugas Pertemuan 20**
+## **Project startup_namer**
 
-A new Flutter project.
+### Praktikum 1 : Create the starter Flutter app
+![Screenshot hello_world](images/01.png)
 
-## Getting Started
+### Praktikum 2 : Use an external package
+* tambahkan english_words package pada pubspec.yml
+![Screenshot hello_world](images/02.png)
 
-This project is a starting point for a Flutter application.
+* import package baru pada main.dart
+![Screenshot hello_world](images/03.png)
 
-A few resources to get you started if this is your first Flutter project:
+### Praktikum 3 : Add a stateful widget
+* Tambah stateful widget RandomWords dengan membuat state class _RandomWordState
+![Screenshot hello_world](images/04.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Update the build() method in _RandomWordsState
+![Screenshot hello_world](images/05.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Remove the word-generation code from MyApp
+![Screenshot hello_world](images/06.png)
+![Screenshot hello_world](images/07.png)
+
+### Praktikum 4 : Create an infinite scrolling ListView
+* Add some state variables to the _RandomWordsState class.
+![Screenshot hello_world](images/08.png)
+
+* Update the build method for _RandomWordsState. Change it to use _buildSuggestions(), rather than directly calling the word-generation library.
+![Screenshot hello_world](images/09.png)
+
+* Update the build method for MyApp, changing the title in two places.
+![Screenshot hello_world](images/10.png)
+![Screenshot hello_world](images/07.png)
