@@ -39,12 +39,12 @@ class _RandomWordsState extends State<RandomWords> {
   final _biggerFont = const TextStyle(fontSize: 18); // NEW
 
   @override                                  
+  // Widget build(BuildContext context) {
+  //   final wordPair = WordPair.random();      // NEW
+  //   return Text(wordPair.asPascalCase
+  //   );      // NEW
+  // }        
   Widget build(BuildContext context) {
-    final wordPair = WordPair.random();      // NEW
-    return Text(wordPair.asPascalCase
-    );      // NEW
-  }        
-  Widget _buildSuggestions() {
     return ListView.builder(
       padding: const EdgeInsets.all(16.0),
       itemBuilder: (context, i) {

@@ -31,4 +31,4 @@
 
 * Update the build method for MyApp, changing the title in two places.
 ![Screenshot hello_world](images/10.png)
-![Screenshot hello_world](images/07.png)
+![Screenshot hello_world](images/11.png)
